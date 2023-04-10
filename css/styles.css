@@ -531,6 +531,10 @@ h1{
     border-radius: 4px;
     background-color: var(--background-main-footer);
 }
+.footer-third-box input:focus{
+    border-color: var(--focus-hover);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .footer-third-box input::placeholder{
     color: rgba(255, 255, 255, 0.6);
 }
