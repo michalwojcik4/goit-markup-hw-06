@@ -439,6 +439,25 @@
             </li>
           </ul>
         </div>
+        <div class="footer-third-box">
+          <h2>Zapisz się do newslettera</h2>
+          <form autocomplete="off">
+            <label>
+              <input
+                type="email"
+                name="email-newslettera"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button type="submit" class="button-newslettera">
+              Zapisz się
+              <svg width="24px" height="24px">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -448,6 +467,81 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <h2>Zostaw swoje dane w formularzu poniżej</h2>
+        <form class="contact-form">
+          <div
+            class="contact-details"
+            role="group"
+            aria-labelledby="contact-name"
+          >
+            <p id="contact-name">Imie</p>
+            <label>
+              <svg width="18px" height="18px">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+              <input type="text" name="name-contact" required />
+            </label>
+          </div>
+          <div
+            class="contact-details"
+            role="group"
+            aria-labelledby="contact-phone"
+          >
+            <p id="contact-phone">Telefon</p>
+            <label>
+              <svg width="18px" height="18px">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+              <input type="tel" name="phone-number-contact" required />
+            </label>
+          </div>
+          <div
+            class="contact-details"
+            role="group"
+            aria-labelledby="contact-email"
+          >
+            <p id="contact-email">Email</p>
+            <label>
+              <svg width="18px" height="18px">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+              <input type="email" name="email-contact" required />
+            </label>
+          </div>
+          <div
+            class="contact-comment"
+            role="group"
+            aria-labelledby="contact-comment"
+          >
+            <p id="contact-comment">Komentarz</p>
+            <label>
+              <textarea
+                rows="4"
+                name="comment"
+                placeholder="Wprowadź tekst"
+              ></textarea>
+            </label>
+          </div>
+
+          <label class="checkbox-label">
+            <input
+              type="checkbox"
+              name="accept-regulations"
+              value="accept-regulations"
+              required
+            />
+            <svg width="16px" height="15px" class="icon-checkmark">
+              <use href="./images/icons.svg#icon-checkmark"></use>
+            </svg>
+
+            <p>
+              Oświadczam iż akceptuję <a href="#">Regulamin</a> i
+              <a href="#">Politykę Prywatności.</a>
+            </p>
+          </label>
+
+          <button type="submit">Wyślij</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
