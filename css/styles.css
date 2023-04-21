@@ -538,11 +538,11 @@ h1{
 .footer-third-box input::placeholder{
     color: rgba(255, 255, 255, 0.6);
 }
-.footer-third-box .button-newslettera{
+.footer-third-box .button-newsletter{
     display: flex;
     align-items: center;
     text-align: center;
-    padding: 13px 18px 13px 42px;
+    padding: 13px 28px 13px 42px;
     gap:24px;
     font-weight: 700;
     font-size: 16px;
